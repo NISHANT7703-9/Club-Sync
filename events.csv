@@ -1,0 +1,10 @@
+event_id,club_id,title,date,venue,description
+EV01,CB01,Intro to Competitive Programming,2026-10-24,Lab 2,Beginner-friendly contest practice session.
+EV02,CB02,Hackathon 24,2026-11-07,Innovation Hall,24-hour team hackathon with prizes.
+EV03,CB03,Navratri Dance Night,2026-10-21,Open Air Theatre,Fest performance and open practice.
+EV04,CB04,Mock Interview Day,2026-11-02,Seminar Room 3,Mock technical interviews with seniors.
+EV05,CB06,Campus Photo Walk,2026-10-29,Main Gate,Guided photo walk around campus.
+EV06,CB08,Inter-College Debate,2026-11-15,Auditorium,Debate competition with neighbouring colleges.
+EV07,CB10,Open Mic Night,2026-10-30,Cafeteria Lawn,Sing, play or recite - everyone is welcome.
+EV08,CB12,Blood Donation Camp,2026-11-10,Health Centre,Annual blood donation drive.
+EV09,CB02,Web Dev Workshop (past),2026-09-30,Lab 1,Completed workshop kept for date-filter testing.

@@ -1,0 +1,13 @@
+club_id,name,category,description,skills,time_hrs,eligibility,recruitment,selection,contact
+CB01,Geeks for Geeks,Coding,"Weekly coding sessions, contests and interview preparation workshops.",python;c++;problem solving,4,All branches and years,Open,Coding test + short interview,gfg@bennett.example
+CB02,Step Code,Technical,"Hands-on web and app development projects, workshops and hackathons.",html;css;javascript;python,6,All branches; basic programming helps,Open,Project-based task,stepcode@bennett.example
+CB03,Advika,Dance,"Classical and contemporary dance practice, performances at college fests.",dancing;choreography;teamwork,5,All years; no experience needed,Open,Audition,advika@bennett.example
+CB04,DSA Club,Coding,"Data structures and algorithms practice, weekly mock interviews and competitive programming.",c++;python;algorithms,5,First and second year,Open,Online test,dsa@bennett.example
+CB05,Full Stack Club,Technical,"Build full stack web applications covering frontend, backend and databases.",javascript;react;python;databases,6,Knowledge of HTML/CSS required,Closed,Interview,fullstack@bennett.example
+CB06,Lens Club,Photography,"Photo walks, editing workshops and event coverage for college fests.",photography;editing;creativity,3,All years; own camera or phone,Open,Portfolio review,lens@bennett.example
+CB07,Dramatics Society,Theatre,"Stage plays, street theatre, scriptwriting and acting workshops.",acting;scriptwriting;public speaking,5,All years,Closed,Audition,drama@bennett.example
+CB08,Debate Society,Public Speaking,"Weekly debates, model united nations and inter-college competitions.",debating;public speaking;research,3,All years,Open,Interview,debate@bennett.example
+CB09,E-Cell,Entrepreneurship,"Startup pitch events, founder talks and business plan competitions.",leadership;business;networking,4,All branches,Closed,Application + interview,ecell@bennett.example
+CB10,Harmony,Music,"Band practice, singing sessions and open mic nights.",singing;guitar;music production,4,All years; audition for bands,Open,Audition,harmony@bennett.example
+CB11,Sports Council,Sports,"Cricket, football and basketball practice with inter-college tournaments.",teamwork;fitness;cricket;football,7,All years; fitness test,Open,Trials,sports@bennett.example
+CB12,Seva,Social Service,"Blood donation drives, teaching underprivileged children and community outreach.",volunteering;leadership;teaching,3,All years; no experience needed,Open,No selection (open to all),seva@bennett.example
