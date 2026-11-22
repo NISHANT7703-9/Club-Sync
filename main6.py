@@ -1292,23 +1292,57 @@ def run_menu(state, title, subtitle, options, actions):
         actions[choice](state)
 
 
-def register_screen(state):
-    """Ask for the registration details. Returns the new student record or None if cancelled."""
+# def register_screen(state):
+#     """Ask for the registration details. Returns the new student record or None if cancelled."""
+#     print("\n--- Register (press Enter at the enrollment number to cancel) ---")
+#     while True:
+#         student_id = ask_text("Enrollment number: ")
+#         if not student_id:
+#             return None
+#         name = ask_text("Full name: ")
+#         password = input("Choose a password: ")
+#         if input("Confirm password: ") != password:
+#             print("  Passwords do not match. Please try again.")
+#             continue
+#         ok, message = register_student(state["students"], student_id, name, password)
+#         print("  " + message)
+#         if ok:
+#             save_data(state, "students")
+#             return find_student(state["students"], student_id)
+    def register_screen(state):
+    """Ask for registration details. Returns the new student record or None if cancelled."""
+
     print("\n--- Register (press Enter at the enrollment number to cancel) ---")
+
     while True:
         student_id = ask_text("Enrollment number: ")
+
         if not student_id:
             return None
+
+        # Check whether enrollment number already exists
+        if find_student(state["students"], student_id):
+            print("  That enrollment number is already registered. Please log in.")
+            continue
+
         name = ask_text("Full name: ")
         password = input("Choose a password: ")
+
         if input("Confirm password: ") != password:
             print("  Passwords do not match. Please try again.")
             continue
-        ok, message = register_student(state["students"], student_id, name, password)
+
+        ok, message = register_student(
+            state["students"], student_id, name, password
+        )
+
         print("  " + message)
+
         if ok:
             save_data(state, "students")
             return find_student(state["students"], student_id)
+
+
 
 
 def student_access(state):
